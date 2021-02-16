@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+   h1{
+    font-family: 'Playfair Display', serif;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    width: 100%;
+    box-shadow: 0px 4px 68px rgb(0, 0, 0, 0.1);
+    padding: 80px 80px;
+}
+.content-text{
+    color: #171717;
+    opacity: 0.7019607843137254;
+    font-size: 18px;
+    
+    text-align: justify;
+}
+.content-text:first-letter{
+    font-size: 79px;
+    float: left;
+    padding-right: 6px;
+    line-height: 0.8;
+}
+quote{
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+}
+quote::before{
+    content: '"';
+    font-size: 2em;
+    font-style: italic;
+    padding-right: 25px;
+}
+.button{
+    display: flex;
+    width: 200px;
+    height: 45px;
+    border: 1px solid #EAA258;
+    color: #EAA258;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-weight: bold;
+}
